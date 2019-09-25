@@ -6,7 +6,7 @@ void greet() {
     char buf[16];
 
     printf("Hello! What is your name?\n");
-    scanf("%s", buf);
+    scanf("%15s", buf);
     printf("Nice to meet you, %s!\n", buf);
 }
 
